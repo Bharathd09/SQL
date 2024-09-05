@@ -79,8 +79,8 @@ FROM fortune_companies;
 
 SELECT industry,company_name,paid_time_off_days,maternity_leave_weeks
 FROM fortune_companies
-WHERE paid_time_off_days>=10
-AND maternity_leave_weeks >=10
+WHERE paid_time_off_days>=20
+AND maternity_leave_weeks >=12
 ORDER BY paid_time_off_days DESC;
 
 --Query to find out employees who working for companies with a minimum of 3000 employees.
